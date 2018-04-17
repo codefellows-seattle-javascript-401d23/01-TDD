@@ -2,4 +2,10 @@
 
 const greet = module.exports = {};
 
-greet.hi = name => `hello ${name}`; 
+greet.hi = (name) => {
+  if (typeof name !== 'string') {
+    return null;
+  }  
+  return `hello ${name}`; 
+};
+
