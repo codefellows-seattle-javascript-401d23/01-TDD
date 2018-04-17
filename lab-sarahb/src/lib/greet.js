@@ -1,5 +1,5 @@
 'use strict';
 
-const greet = mode.exports = {};
+const greet = module.exports = {};
 
 greet.hi = name => `hello ${name}`; 
