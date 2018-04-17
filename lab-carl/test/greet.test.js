@@ -3,13 +3,11 @@
 const greet = require('../lib/greet');
 
 describe('greet.test.js', () => {
-  describe('greet.hi', () => {
-    test('Should return Hello World!', () => {
-      expect(greet.hi('World')).toEqual('Hello World!');
-    });
-    test('Should return null if non string', () => {
-      expect(greet.hi('')).toEqual(null);
-      expect(greet.hi()).toEqual(null);
-    });
+  test('Should return Hello World!', () => {
+    expect(greet('World')).toEqual('Hello World!');
+  });
+  test('Should return null if non string', () => {
+    expect(greet('')).toEqual(null);
+    expect(greet()).toEqual(null);
   });
 });

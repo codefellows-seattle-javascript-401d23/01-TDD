@@ -1,8 +1,6 @@
 'use strict';
 
-const greet = module.exports = {};
-
-greet.hi = (name) => {
+module.exports = (name) => {
   if (name === '' || typeof name !== 'string') {
     return null;
   }
