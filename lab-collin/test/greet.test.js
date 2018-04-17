@@ -7,3 +7,9 @@ describe('greet.test.js', () => {
     expect(greet.hi('world')).toEqual('Hello world.');
   });
 });
+
+describe('invalid.test.js', () => {
+  test('Should return null', () => {
+    expect(greet.hi('')).toEqual(null);
+  });
+});

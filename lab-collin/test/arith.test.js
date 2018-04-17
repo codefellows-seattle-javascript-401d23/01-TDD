@@ -14,8 +14,14 @@ describe('subtract.test.js', () => {
   });
 });
 
-describe('invalid.test.js', () => {
+describe('invalidsum.test.js', () => {
   test('Should return null', () => {
     expect(arithmetic.add('sam', 'hamm')).toEqual(null);
+  });
+});
+
+describe('invalidsub.test.js', () => {
+  test('Should return null', () => {
+    expect(arithmetic.sub('sam', 'hamm')).toEqual(null);
   });
 });
