@@ -7,6 +7,9 @@ describe('greet module test aka greet.test.js', () => {
     expect(greet.aloha()).toEqual(null);
   });
   test('Should return Hello World', () => {
-    expect(greet.aloha(World)).toEqual('Hello World');
+    expect(greet.aloha('World')).toEqual('Hello World');
+  });
+  test('Should return Hello Josh', () => {
+    expect(greet.aloha('Josh')).toEqual('Hello Josh');
   });
 });
