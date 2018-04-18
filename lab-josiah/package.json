@@ -20,7 +20,8 @@
     "jest": "^22.4.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "eslint . && jest --coverage"
   },
   "keywords": [],
   "author": "",
