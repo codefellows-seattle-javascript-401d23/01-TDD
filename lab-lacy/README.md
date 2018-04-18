@@ -1,0 +1,5 @@
+The lib directory contains two modules that are exported, arithmetic and greet. 
+
+The arithmetic module exports an object that contains two methods, add and sub. Each method takes in an airty of two. The data-type for each airty is a number. There are two expected outcomes for both methods. For the add method, the first expected outcome would be the addition of two numbers. The second expected outcome is the return of null if one or more inputs are non-numbers. For the sub method, the first expected outcome would be the subtraction of the second input number from the first input number. The second expected outcome is the return of null if one or more inputs are non-numbers.
+
+The greet module exports one method, hi. This method takes in an airty of one that must be a string. There are two expected outcomes for this method. The first expected outcome is the return of null if the input is not a sting. The second expected outcome is the concatination of the input name with "hello" (e.g. "hello world").
