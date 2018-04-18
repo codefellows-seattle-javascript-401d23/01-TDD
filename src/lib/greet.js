@@ -3,8 +3,8 @@
 const greet = module.exports = {};
 
 greet.aloha = (worldText) => {
-  if (typeof worldText !== 'string')
+  if (typeof worldText !== 'string') {
     return null;
-
-  return 'Hello World';
-}
+  }
+  return `Hello ${worldText}`;
+};
