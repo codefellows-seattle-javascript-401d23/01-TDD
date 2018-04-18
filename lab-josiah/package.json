@@ -1,9 +1,14 @@
 {
-  "name": "lab-josiah",
+  "name": "src",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "dependencies": {},
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "npm": "^5.8.0"
+  },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "babel-preset-env": "^1.6.1",
@@ -12,12 +17,10 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jest": "^21.15.0",
-    "jest": "^22.4.3",
-    "npm": "^5.8.0"
+    "jest": "^22.4.3"
   },
   "scripts": {
-    "lint": "eslint .",
-    "test": "eslint . && jest --coverage"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
