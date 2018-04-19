@@ -1,0 +1,3 @@
+The greet.js file contains a single function, with 1 parameter, which returns a concatenated string of "hello, ${1st parameter}" as long as the parameter passed is a string, otherwise the function will return null.
+
+The arithmetic.js file contains 2 functions, both functions take 2 parameters. The first function of add() returns the sum of parameter1 and parameter2 as long as both parameters are numbers, otherwise, it returns null. The second function of sub() returns the difference between parameter1 and parameter2 as long as both parameters are numbers, otherwise, it returns null.
