@@ -48,3 +48,24 @@ Create a NodeJS module in the `lib` directory named `arithmetic.js`. This module
 
 ### Documentation
 In your README.md file, describe the exported values of each module defined in your `lib` directory. Every function description should include it's airty (expected number of parameters), the expected data for each parameter (data-type and limitations), and the expected output behavior (for both valid and invalid use). Feel free to include any additional information that you would like.
+
+I thought this assignment would take a few hours, but I failed to recognize how long it would take me to set up the linter and to realize how to implement jest testing. This added a few hours onto my actual time taken.
+
+greet:
+
+greet.hi:
+airty:1
+expected data: string
+output: output `Hello, ${string}`
+
+arithmetic:
+
+arithmetic.add:
+airty:2
+expected data: any number, any number
+output: output input 1 added to input 2
+
+arithmetic:sub:
+airty:2
+expected data: any number, any number
+output: output input 1 minus input 2
