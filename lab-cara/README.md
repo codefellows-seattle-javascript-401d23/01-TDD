@@ -3,6 +3,9 @@ In Arithmetic.js, the module is set to an empty object, outside of the function.
 
 In greet.js, the module export is exports.greet = greet because the greet function on arithmetic.test.js needs to access the greet function on arithmetic.js. 
 
+## Architecture 
+This application uses Javascript, NodeJS, Babel, Airbnb Linter and Jest for testing.
+
 
 ## Time & Observation
 I expected this would take 2 hours, but it took 3. It took quite a bit of time just to get the dependencies and structure right, and I had some issues with running node because of how I set it up. 
